@@ -1,0 +1,142 @@
+*{
+    background-color: black;
+}
+
+.nav-bar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.nav-bar ul{
+    margin-left: 150px;
+    column-gap: 150px;
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding: 20px;
+}
+
+.nav-bar ul li a:hover{
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+i{
+    color: white;
+    margin: 35px;
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+i:hover{
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.review{
+    height: 560px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.star{
+    display: flex;
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+}
+
+.box-1{
+    display: flex;
+    column-gap: 10px;
+}
+
+.contactUs {
+    border-radius: 15px;
+    width: 820px;
+    background-color: #000; /* Black background */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for a modern look */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactUs legend {
+    font-family: 'Arial', sans-serif;
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px; /* Align legend to the left */
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure they wrap if screen is too small */
+    gap: 30px; /* Add space between icons */
+}
+
+.social-item {
+    text-align: center;
+}
+
+.social-item p {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fb, .wp, .ig, .email {
+    font-size: 50px; /* Larger icon size */
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effects */
+    margin-bottom: 10px;
+}
+
+.fb {
+    background-color: #3b5998; /* Facebook blue color */
+}
+
+.wp {
+    background-color: #25D366; /* WhatsApp green color */
+}
+
+.ig {
+    background-color: #C13584; /* Instagram pink color */
+}
+
+.email {
+    background-color: #D44638; /* Email red color */
+}
+
+.fb:hover, .wp:hover, .ig:hover, .email:hover {
+    transform: scale(1.1); /* Enlarge the icon on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
